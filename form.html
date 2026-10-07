@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy form</form></title>
+</head>
+<body bgcolor="#003366">
+   <div style="display: flex; align-items: center">
+    <div style="flex: 1; max-width: 500px">
+     <img src="student_image(1).png">
+    </div>
+   <div style="flex: 1; max-width: 500px">
+    <fieldset style="border-color:#3B82F6;border-radius: 40px;background-color:#dd6e0f;">
+     <!-- <legend><h1 align="right" style="margin-right: 350px;color: #1F2937" >sign up page</h1></legend> -->
+      <legend style="font-size: xx-large;color: cornsilk;font-family:cursive ;">Signup Page</legend>
+    <form style="float: right;margin-right: 150px;border: 2px black;padding: 20px;max-width: 300px;" >
+       
+        <p style="font-size: larger;font-family:cursive;" >ENTER FULL NAME :   
+        <input style="background-color:Very Light Gray" type="text" placeholder="ENTER FULL NAME" required></p><br>
+        <p style="font-size: larger;font-family:cursive;">ENTER PHONE NO.:
+        <input type="number" placeholder="ENTER PHONE NO." required></p><br>
+        <p style="font-size: larger;font-family:cursive;">ENTER YOUR EMAIL:
+        <input type="email" placeholder="ENTER YOUR EMAIL" required></p><br>
+        <p style="font-size: larger;font-family:cursive;">ENTER COURSE :
+        <select required></p>
+            <option>CSE</option>
+            <option>MECH</option>
+            <option>CIVIL</option>
+            <option>MECHATRONICS</option>
+        </select><br><br>
+        <label style="font-size: larger;font-family:cursive;">ENTER GENDER :</label>
+         <select required>
+            <option>MALE</option>
+            <option>FEMALE</option>
+            <option>OTHERS</option>
+         </select>
+<br><br>
+           <label style="font-size: larger;font-family:cursive;">Your Passport Sized pic:</label> 
+         <input type="file" ><br>
+         <p style="font-size: larger;font-family:cursive;">ABOUT YOU</p>
+         <textarea name="text" rows="5" cols="50" placeholder="ENTER ABOUT YOURSELF"></textarea><br><br>
+<label style="font-size: larger;font-family:cursive;">DATE OF BIRTH</label>
+         <input type="date" name="date" required> <br><br>
+<!-- <p>ENTER PRICE</p> -->
+<!-- <input min="0" max="6" type="range"> -->
+          <p style="font-size: larger;font-family:cursive;">
+            <input type="checkbox" required><b>Do you agree to our *TERMS AND CONDITIONS*</b></p>
+<br>
+         <button  formaction="thank_you.html" style="background-color: chocolate;color: azure;margin-left: 150px ;width: 80px;height: 40px;border-radius: 40px;font-family:cursive"><b>SUBMIT</b></button>
+    </form>
+    </fieldset>
+    </div>
+   </div>
+</body>
+</html>
